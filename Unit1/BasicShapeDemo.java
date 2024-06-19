@@ -26,6 +26,8 @@ class shapeExample{
         //drawing circle
         g.drawOval(400, 400,600 ,600 );
         //drawing circle with red color
+        //draw arc 
+        g.drawArc(200,200,200,200,20);
        g.setColor(Color.GREEN);
        g.setFont(new Font("arial",Font.BOLD, 12));
        g.drawString("Hello BCCA", 100, 100);
